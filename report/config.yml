@@ -1,0 +1,25 @@
+email:
+    noreply: noreply@gmap.com
+    noreply_password: Hato1474
+    helpdesk: helpdesk@gmap.com
+    logerrors: DBAdmin@gmap.com
+
+
+sql:
+    server : 'tcp:afw4r24m.database.windows.net'  # SQL server name
+    database : 'fordreporting_backend'  # database name
+    username : 'User1'  # user ID
+    password : 'asDFde345wnd'  # password, uses windows password
+
+reports:
+    GBRCarReport: '6949c167-64ca-4146-a939-2c9cabc95180'
+    GBRCVReport: '1eca573c-2734-474b-a0a5-bde32bbaaf6d'
+    IRLCarReport: '0b4aa3da-68b2-4782-b59f-56786e330639'
+    IRLCVReport: '040d230d-8b21-4622-9546-528757cdf275'
+
+ford:
+    redirect_uri : 'https://azapp-ford-development.azurewebsites.net/auth'
+    TOKEN_URL : 'https://corpqa.sts.ford.com/adfs/oauth2/token/'
+    payload : 'grant_type=authorization_code&client_id=urn:dspd:clientid:dspd_web:dev&resource=urn:dspd:resource:dspd_web:dev&redirect_uri=https://azapp-ford-development.azurewebsites.net/auth&code='
+    BASE_URL : 'https://corpqa.sts.ford.com/adfs/oauth2/authorize?response_type=code&client_id=urn:dspd:clientid:dspd_web:dev&resource=urn:dspd:resource:dspd_web:dev&redirect_uri=https://azapp-ford-development.azurewebsites.net/auth'
+    # URL_Sitemk1: 'https://azapp-ford-edu.azurewebsites.net'

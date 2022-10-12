@@ -1,0 +1,50 @@
+<!--
+Copyright (c) Microsoft Corporation.
+Licensed under the MIT license.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <!-- Navbar Right Side -->
+
+    <div class="navbar-nav mr-auto">
+     
+        <button type="button" class="btn btn-light">
+            <a class="nav-item nav-link text-dark font-weight-bold"  href="{{ url_for('logout') }}">Logout</a>
+        </button>
+        <button type="button" class="btn btn-light">
+            <a class="nav-item nav-link text-dark font-weight-bold"  href="{{ url_for('IRL_CAR') }}">Car</a>
+        </button>
+        <button type="button" class="btn btn-light">
+            <a class="nav-item nav-link text-dark font-weight-bold"  href="{{ url_for('IRL_CV') }}">CV</a>
+        </button>
+        <button type="button" class="btn btn-light">
+            <a class="nav-item nav-link text-dark font-weight-bold"  href="{{ url_for('UserGuide') }}" target="_blank">User Guide</a>
+        </button>
+         <button type="button" class="btn btn-light">
+            <a class="nav-item nav-link text-dark font-weight-bold"  href="{{ url_for('TutorialVideos_IRL') }}" target="_blank">Tutorial Videos</a>
+        </button>
+        <button type="button" class="btn btn-light">
+            <a class="nav-item nav-link text-dark font-weight-bold"  href="{{ url_for('support') }}" target="_blank">Support</a>
+        </button>
+      
+    </div>
+
+    <main class="row">
+        <section id="report-container" class="embed-container fill" style="height: 1080px;  ">
+        </section>
+
+        <!-- Used to display report embed error messages -->
+        <section class="error-container m-5">
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/external/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/external/jquery-3.4.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/external/powerbi.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/listeners.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content section">
+		<div class="row">
+			<div class="col-sm">
+				<video width="320" height="240" controls>
+					<source src="{{ url_for ('static', filename='3. Dealer Sales Performance.mp4') }}" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<h4>Dealer Sales Performance</h4>
+			</div>
+			<div class="col-sm">
+				<video width="320" height="240" controls>
+					<source src="{{ url_for ('static', filename='8. Mapping.mp4') }}" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<h4>Mapping</h4>
+			</div>
+			<div class="col-sm">
+				<video width="320" height="240" controls>
+					<source src="{{ url_for ('static', filename='4. Pump In CMA & Site.mp4') }}" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<h4>Pump In: CMA & Site</h4>
+			</div>
+			<div class="col-sm">
+				<video width="320" height="240" controls>
+					<source src="{{ url_for ('static', filename='1. Group Report.mp4') }}" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<h4>Group Report</h4>
+			</div>
+			<div class="col-sm">
+				<video width="320" height="240" controls>
+					<source src="{{ url_for ('static', filename='5. DSPD Interaction.mp4') }}" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<h4>DSPD Interaction</h4>
+			</div>
+			<div class="col-sm">
+				<video width="320" height="240" controls>
+					<source src="{{ url_for ('static', filename='6. DSPD Functionality.mp4') }}" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<h4>DSPD Functionality</h4>
+			</div>
+
+		</row>
+	</div>
+{% endblock content %}

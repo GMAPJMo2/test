@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class ="content-section">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+                <legend class="bottom mb-4" align="middle">Two Step Verification</legend>
+                <small><center>For added security, please enter the One Time Password (OTP) which has been sent to the email address associated with this account.</center></small>
+                <div class="form-group">
+                    {{ form.otp.label(class="form-control-label") }}
+                    {% if form.otp.errors %}
+                        {{ form.otp(class="form-control form-control-lg is-invalid")}}
+                        <div class="invalid-feedback">
+                            {% for errors in form.otp.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                    {{ form.otp(class="form-control form-control-lg") }}
+                    {% endif%}
+                </div>
+            </fieldset>
+            <div class="form-group" >
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+        </form>
+    </div>
+{% endblock content %}

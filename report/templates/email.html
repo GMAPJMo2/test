@@ -1,0 +1,13 @@
+
+<p>Dear {{ user.username }},</p>
+<p>
+    To reset your password
+    <a href="{{ url_for('reset_token', token=token, _external=True) }}" class="ml-2 mt-0 btn btn-primary btn-sm text-lg float-left col-lg-3" role="button" aria-pressed="true">
+        click here
+    </a>
+</p>
+<p>This link will expire today at {{ expires }}.</p>
+<p>If you have not requested a password reset please ignore this message.</p>
+<p>Kind Regards,</p>
+<p>The GMAP Support Team</p>
+<p>GMAP Analytics Ltd | www.gmap.com | GMAP Analytics, Nexus - University of Leeds, Discovery Way, Leeds, LS2 3AA, United Kingdom</p>
