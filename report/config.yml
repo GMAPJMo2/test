@@ -11,10 +11,10 @@ sql:
     password : 'asDFde345wnd'  # password, uses windows password
 
 reports:
-    GBRCarReport: '7c471772-39ac-4f5e-ace7-55496bd1416e'
-    GBRCVReport: 'c4c20269-f06f-4fca-86c6-3abb64ec2943'
-    IRLCarReport: '8c51c8a3-2b03-4c2e-9673-ceed4136ee2d'
-    IRLCVReport: 'e930a88d-bf09-4274-8fd6-609c8d6e8d38'
+    GBRCarReport: '92c57093-f7b8-4311-aef3-d97bf1315489'
+    GBRCVReport: 'aab7fb5b-b0e5-4eef-97d4-f7da6ee11248'
+    IRLCarReport: '9cbce1ad-ca25-4989-9c2d-b020bcacc6ac'
+    IRLCVReport: '6d41659e-6104-4e29-b847-22a89b403267'
 
 
 ford:
