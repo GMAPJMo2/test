@@ -12,10 +12,10 @@ sql:
     password : 'asDFde345wnd'  # password, uses windows password
 
 reports:
-    GBRCarReport: '6949c167-64ca-4146-a939-2c9cabc95180'
-    GBRCVReport: '1eca573c-2734-474b-a0a5-bde32bbaaf6d'
-    IRLCarReport: '0b4aa3da-68b2-4782-b59f-56786e330639'
-    IRLCVReport: '040d230d-8b21-4622-9546-528757cdf275'
+    GBRCarReport: '7c471772-39ac-4f5e-ace7-55496bd1416e'
+    GBRCVReport: 'c4c20269-f06f-4fca-86c6-3abb64ec2943'
+    IRLCarReport: '8c51c8a3-2b03-4c2e-9673-ceed4136ee2d'
+    IRLCVReport: 'e930a88d-bf09-4274-8fd6-609c8d6e8d38'
 
 ford:
     redirect_uri : 'https://azapp-ford-development.azurewebsites.net/auth'
