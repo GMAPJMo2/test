@@ -4,7 +4,6 @@ email:
     helpdesk: helpdesk@gmap.com
     logerrors: DBAdmin@gmap.com
 
-
 sql:
     server : 'tcp:afw4r24m.database.windows.net'  # SQL server name
     database : 'fordreporting_backend'  # database name
